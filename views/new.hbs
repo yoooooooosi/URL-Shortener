@@ -4,11 +4,11 @@
     <h1 class="fw-bold mb-5">URL Shortener</h1>
     <img src="https://assets-lighthouse.alphacamp.co/uploads/image/file/16716/ExportedContentImage_00.png" alt="" class="w-50 mb-5">
   </div>
-  <form action="/" method="POST" class="text-center w-75">
-    <input type="url" placeholder="url" name="url" class="w-75 mb-5 form-control-lg">
-    <button type="submit" class="btn btn-outline-primary w-25 btn-lg">Shortener</button>
-  </form>
+  <div class="">
+    <h1 class="fw-bold mb-4">成功囉!可以複製下方連結</h1>
+    <a href="{{url.OriginRrl}}" class="fs-4 mr-3">{{url.NewRrl}}</a>
+    <button class="btn btn-outline-primary w-25 btn-lg " onclick="navigator.clipboard.writeText('{{url.OriginRrl}}')">Copy</button>
+  </div>
 </div>
-
 
 
