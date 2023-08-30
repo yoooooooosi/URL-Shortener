@@ -1,6 +1,7 @@
 
 # URL-Shortener 我的餐廳清單
 ![image](https://github.com/yoooooooosi/URL-Shortener/blob/main/url%20pic%20v-1.jpg?raw=true)
+![image](https://github.com/yoooooooosi/URL-Shortener/blob/main/url%20pic%20v-2.jpg?raw=true)
 # Introduction 簡介
 此網頁主要是用來將網址縮短。
 # Function 功能
